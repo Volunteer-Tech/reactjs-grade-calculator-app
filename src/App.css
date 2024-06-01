@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'lobster';
+  src: local('lobster'), url("./components/Lobster-Regular.ttf") format('ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lobster&display=swap');
+
+.navbar_text{
+  margin-left: 15px;
+}
+.navbar_title{
+  font-family: 'Lobster', cursive;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #fff;
+}
+.loginpage{
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  margin-top: 60px;
+}
+.form-signin label{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.form-signin button {
+  margin-bottom: 40px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.form-signin a{
+  text-decoration: none;
+}
+.form-signin a > span {
+  padding-left: 10px;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+.form-signin input{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.navbar{
+  background: #1875c5 !important;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.editform{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+.editform h3{
+  margin-top: 30px;
+  background: #2ab3ff;
+  color: #fff;
+  padding: 16px 30px;
+  border-radius: 3px 3px 0 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.editform select{
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
